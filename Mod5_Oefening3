@@ -1,0 +1,14 @@
+public class Mod5_Oefening3
+{
+	public static void main(String[] args)
+	{
+		int  hedenjaar;
+		int geboortejaar;
+		
+		geboortejaar = 2006;
+		hedenjaar = 2022;
+		
+		System.out.println(hedenjaar - geboortejaar % 2022);
+	}
+
+}
