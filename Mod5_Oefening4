@@ -1,0 +1,21 @@
+
+public class Mod5_Oefening4
+{
+	public static void main(String[] args)
+	{
+		double bedrag;
+		double btw;
+		
+		bedrag = 23000;
+		btw = 21;
+		
+		System.out.print("Bedrag: ");
+		System.out.println(23000);
+		
+		System.out.print("BTW: ");
+		System.out.println(bedrag / 100 * 21);
+		
+		System.out.print("Eindbedrag: ");
+		System.out.println(bedrag + bedrag / 100 * 21);
+	}
+}
