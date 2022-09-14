@@ -1,0 +1,22 @@
+public class Mod5_Oefening2
+{
+
+	public static void main(String[] args)
+	{
+		double getal2;
+		double getal1;
+
+		getal2 = 10;
+		getal1 = 20;
+		
+		
+		System.out.print("Getal1: ");
+		System.out.println(getal1);
+		
+		System.out.print("Getal2: ");
+		System.out.println(getal2);
+		
+		System.out.print("Uitkomst: ");
+		System.out.println(getal1 + getal2);
+	}
+}
