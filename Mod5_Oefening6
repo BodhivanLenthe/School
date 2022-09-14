@@ -1,0 +1,16 @@
+public class Mod5_Oefening6
+{
+
+	public static void main(String[] args)
+	{
+		double geldbetaal;
+		double geldgeef;
+
+		geldbetaal = 15.95;
+		geldgeef = 20;
+		
+		System.out.print(geldgeef - geldbetaal);
+		
+	}
+
+}
