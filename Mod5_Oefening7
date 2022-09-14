@@ -1,0 +1,32 @@
+
+public class Mod5_Oefening7
+{
+
+	public static void main(String[] args)
+	{
+		int lengte;
+		int breedte;
+		int hoogte;
+		double totaal;
+		
+		lengte = 100;
+		breedte = 15;
+		hoogte = 40;
+		totaal = lengte * breedte * hoogte;
+		
+		System.out.print("Lengte = ");
+		System.out.println(lengte);
+		
+		System.out.print("Breedte = ");
+		System.out.println(breedte);
+		
+		System.out.print("Hoogte = ");
+		System.out.println(hoogte);
+		
+		System.out.println("-=-=-=-=-=-=-=-=-=-=-=-");
+		
+		System.out.print("Totale inhoud ");
+		System.out.println(totaal);
+	}
+
+}
