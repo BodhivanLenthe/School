@@ -1,0 +1,26 @@
+
+public class Mod4_Oefening7
+{
+
+	public static void main(String[] args)
+	{
+		int klas1a;
+		int klas1b;
+		int klas1c;
+		int gemiddelde;
+		
+		klas1a = 32;
+		klas1b = 23;
+		klas1c = 25;
+		gemiddelde = klas1a + klas1b + klas1c;
+		
+		System.out.println("In alle klassen totaal zitten");
+		System.out.print(klas1a + klas1b + klas1c); 
+		System.out.println(" Studenten ");
+		System.out.println("---------------------------");
+		System.out.println("Het gemiddelde per klas is");
+		System.out.println(gemiddelde / 3);
+		System.out.println("---------------------------");
+				
+	}
+}
