@@ -1,0 +1,28 @@
+
+public class Mod5_Oefening10
+{
+
+	public static void main(String[] args)
+	{
+		int minuten;
+		int uitkomst;
+		
+		minuten = 100000000;
+		uitkomst = minuten / 525600;
+		
+		int restwaarde = minuten % 525600 / 1440;
+		
+		
+		
+		System.out.print(minuten);
+		System.out.println(" Minuten is ");
+		System.out.print(uitkomst);
+		System.out.println(" Jaar");
+		System.out.print(restwaarde);
+		System.out.print(" Dagen");
+		
+		
+		
+	}
+
+}
