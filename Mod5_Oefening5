@@ -1,0 +1,18 @@
+public class Mod5_Oefening5
+{
+	public static void main(String[] args)
+	{
+		double diameter;
+		double pi;
+		double hoogte;
+		double uitkomst;
+		
+		diameter = 3;
+		pi = 3.1415927;
+		hoogte = 5;
+		uitkomst = diameter * 2 * hoogte * pi;
+		
+		System.out.print("Uitkomst: ");
+		System.out.println(uitkomst / 4 );
+	}
+}
