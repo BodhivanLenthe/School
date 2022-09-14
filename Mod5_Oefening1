@@ -1,0 +1,15 @@
+public class Mod5_Oefening1
+{
+	public static void main(String[] args)
+	{
+	double temperatuur;
+	double bijvoeg;
+	
+	temperatuur = 21;
+	bijvoeg = 0.71;
+	
+	System.out.println("Het is vandaag. ");
+	System.out.print(temperatuur + bijvoeg);
+	System.out.print(" graden celcius.");
+	}
+}
