@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Mod6_Oefening2
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int inputNumber1 = keyboard.nextInt();
+		int inputNumber2 = keyboard.nextInt();
+		
+		System.out.print("Getal 1 = ");
+		System.out.println(inputNumber1);
+		System.out.print("Getal 2 = ");
+		System.out.println(inputNumber2);
+		System.out.print("Uitkomst = ");
+		System.out.println(inputNumber1 + inputNumber2);
+	}
+}
